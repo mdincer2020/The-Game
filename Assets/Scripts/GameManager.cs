@@ -7,6 +7,7 @@ using TMPro;
 public class GameManager : MonoSingeleton<GameManager>
 {
     public AudioClip StartMusic, NormalMusic;
+    public Inventory PlayerInventory;
     public AudioSource SourceAudio;
     public GameObject Envanter;
     public GameObject ESC;
